@@ -1,0 +1,79 @@
+<!-- Navegacion -->
+<header class="ae-container-fluid ae-container-fluid--full rk-header ">
+  <input type="checkbox" id="mobile-menu" class="rk-mobile-menu">
+  <label for="mobile-menu">
+      <svg>
+          <use xlink:href="assets/img/symbols.svg#bar"></use>
+      </svg>
+      <svg>
+          <use xlink:href="assets/img/symbols.svg#bar"></use>
+      </svg>
+      <svg>
+          <use xlink:href="assets/img/symbols.svg#bar"></use>
+      </svg>
+  </label>
+  <!-- Utilize parte de la Navegacion que enseñaron en clase en el ej de pagina que nos mostro el profesor. -->
+  <div class="ae-container-fluid rk-topbar">
+      <h1 class="rk-logo">
+          <a routerLink="/tasks">📽️Mis Series📽️<sup>tm</sup></a> 
+      </h1>
+      <nav class="rk-navigation">
+          <ul class="rk-menu">
+              <li class="rk-menu__item">
+                  <a routerLink="/tasks" class="rk-menu__link">Inicio</a>
+              </li>
+              <li class="rk-menu__item">
+                  <a routerLink="/private" class="rk-menu__link">Perfil</a>
+              </li>
+              <li class="rk-menu__item">
+                <a routerLink="/about" class="rk-menu__link">Rockola</a>
+            </li>
+              <li class="rk-menu__item">
+                  <a href="http://www.chikardo.xyz/" class="rk-menu__link">Sitio Del Creador</a>
+              </li>
+              <ng-container *ngIf="!authService.loggedIn(); else loggedIn">
+                <li class="rk-menu__item">
+                  <a class="btn btn-outline-warning" routerLink="/signin" routerLinkActive="active">Iniciar Sesion</a>
+                </li>
+                <hr>
+              <li class="rk-menu__item">
+                  <a class="btn btn-outline-warning" routerLink="/signup" routerLinkActive="active">Loguearte</a>
+                </li>
+              </ng-container>
+              <ng-template #loggedIn>
+                <li class="rk-menu__item">
+                  <a class="btn btn-warning" style="cursor: pointer;" (click)="authService.logout()">Salir de Sesion</a>
+                </li>
+              </ng-template>
+              
+          </ul>
+
+          <form class="rk-search">
+              <input type="text" placeholder="Search" id="urku-search" class="rk-search-field">
+              <label for="urku-search">
+                  <svg>
+                      <use xlink:href="assets/img/symbols.svg#icon-search"></use>
+                  </svg>
+              </label>
+          </form>
+      </nav>
+  </div>
+</header>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="container p-5">
+  <router-outlet></router-outlet>
+</div>

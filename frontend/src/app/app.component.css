@@ -1,0 +1,30 @@
+
+/* CSS DE NAVEGACION */
+.rk-navigation{
+    margin: -20px;
+}
+
+.rk-logo{
+    color: gold;
+    font-family: 'Pacifico', cursive;
+}
+header{
+    background-color:rgba(255, 255, 255, 0.939);
+    font-family: 'Pacifico', cursive;
+    
+    
+}
+.rk-menu__link{
+    margin:-5px;
+    font-size: 1.2em;
+    
+}
+.btn{
+    margin:-20px;
+}
+
+
+
+
+
+

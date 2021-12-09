@@ -1,0 +1,47 @@
+.tituloprincipal{
+  font-size: 2.7em;
+  text-align: center;
+  padding: 50px;
+  color: gold;
+  font-family: 'Press Start 2P', cursive;
+  text-shadow: 0 0 5px #FFF633;
+  
+}
+.rockola{
+  padding-right: 550px;
+  margin-top: 70px;
+ 
+}
+
+.btn{
+  margin: 10px;
+  padding:10px;
+}
+.botones{
+  padding-left: 260px;
+}
+
+
+/* ACA COMIENZA EL RESPONSIVE CON MEDIAQUERYES */
+ 
+ /* Pequeños Medianos Iphone SE , 6,7,8 -> 0px - 900px */
+ @media (min-width:310px) and (max-width:900px){
+ 
+.tituloprincipal{
+  font-size: 26px;
+ 
+}
+
+.rockola{
+ width:800px;
+ 
+}
+.btn{
+  width: 200px;
+  
+ 
+}
+.botones{
+  margin-left: -230px;
+}
+ }

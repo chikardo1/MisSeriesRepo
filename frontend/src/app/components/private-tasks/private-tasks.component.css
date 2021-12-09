@@ -1,0 +1,948 @@
+/* Css del perfil privado del usuario */
+.tituloprincipal{
+    font-size: 2.7em;
+    text-align: center;
+    padding: 190px;
+    color: gold;
+    font-family: 'Lobster', cursive;
+    text-shadow: 0 0 5px #FFF633;
+    
+}
+
+.tituloprincipal2{
+  font-size: 3.1em;
+  text-align: center;
+  color: gold;
+  font-family: 'Lobster', cursive;
+  text-shadow: 0 0 5px #FFF633;
+  
+}
+
+.tituloprincipal3{
+  font-size: 3.1em;
+  text-align: center;
+  color: gold;
+  font-family: 'Lobster', cursive;
+  text-shadow: 0 0 5px #FFF633;
+  margin-top: 110px;
+  padding:20px;
+  
+}
+
+.container{
+  margin-top: 220px;
+  display:flex;
+  padding-left: -430px;
+  
+}
+
+
+.container{
+  padding-top:200px;
+  background: #c31432;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #240b36, #c31432);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #240b36, #c31432);
+}
+
+.subtitulo{
+  color: white;
+  font-size:20px;
+  width:5%;
+}
+.letra{
+    font-family: 'Lobster', cursive;
+    font-size: 1.1em;
+    color: white;
+  }
+  .letra2{
+    font-family: 'Lobster', cursive;
+    font-size: 2.2em;
+    text-align: center;
+    color: white;
+  }
+  .letra3{
+    font-family: 'Lobster', cursive;
+    font-size: 1.7em;
+    text-align: center;
+    color: black;
+  }
+  #fordtitulo{
+    font-family: 'Pacifico', cursive;
+    color: gold;
+    text-shadow: 0 0 5px #FFF633;
+  }
+
+  .card{
+    margin-top: 90px;
+
+  }
+  .card-title{
+    font-family: 'Lobster', cursive;
+  }
+
+  .btn{
+    font-family: 'Lobster', cursive;
+    font-size:20px;
+  }
+
+  .slider2 {
+    width: 65%;
+    margin: auto;
+    overflow: hidden;
+    border-radius: 50px;
+    border: 2px solid white;
+  }
+.maps{
+  padding:5px;
+}
+
+.contenedormaps{
+  display: flex;
+}
+
+
+
+
+  /* Slider de series */
+  .slider2 ul {
+    display: flex;
+    padding: 0;
+    width: 500%;
+    height: 420px;
+    
+    animation: cambio 20s infinite alternate linear;
+  }
+  
+  .slider2 li {
+    width: 100%;
+    list-style: none;
+  }
+  
+  .slider2 img {
+    width: 100%;
+  }
+  
+  @keyframes cambio {
+    0% {margin-left: 0;}
+    20% {margin-left: 0;}
+    
+    25% {margin-left: -100%;}
+    45% {margin-left: -100%;}
+    
+    50% {margin-left: -200%;}
+    70% {margin-left: -200%;}
+    
+    75% {margin-left: -300%;}
+    100% {margin-left: -300%;}
+  }
+  .accordion-body{
+    background-color: grey;
+  }
+  .accordion-button{
+    background-color:black;
+    color: white;
+    font-size: 1em;
+    font-family: 'Pacifico', cursive;
+    border: 1px solid white;
+    
+  }
+
+
+  
+
+
+/* CARTAS DE LAS PELICULAS DE TODOS LOS TIEMPOS 1 */
+
+.card2 {
+   
+    transform: translate(-50%,-50%);
+    width: 100%;
+    height: 400px;
+    background: #262626;
+    overflow: hidden;
+    border: 10px solid white;  
+    border-radius: 20px;
+   margin:20px;
+}
+.card2 .imgBx,
+.card2 .details {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    box-sizing: border-box;
+    transition: .5s;
+}
+.card2 .imgBx {
+    top: 0;
+    left: 0;
+}
+.card2:hover .imgBx {
+    top: 0;
+    left: -100%;
+}
+.card2 .imgBx img {
+    width: 100%;
+}
+.card2 .details {
+    background: #262626;
+    top: 0;
+    left: 100%;
+    padding: 60px 30px;
+    font-size:16px;
+}
+.card2:hover .details {
+    top: 0;
+    left: 0%;
+}
+.card2 .details h2 {
+    color: #fff;
+    text-align: center;
+    margin: 0;
+    padding: 0 0 10px;
+    border-bottom: 2px solid #fff;
+
+}
+.card2 .details p {
+    margin: 20px 0 0;
+    color: #fff;
+}
+
+
+/* CARTAS DE LAS PELICULAS DE TODOS LOS TIEMPOS 2 */
+
+.card3 {
+
+  transform: translate(-50%,-50%);
+  width: 100%;
+  height: 400px;
+  background: #262626;
+  overflow: hidden;
+  border: 10px solid white;  
+  border-radius: 20px;
+  margin:20px;
+}
+.card3 .imgBx,
+.card3 .details {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  box-sizing: border-box;
+  transition: .5s;
+}
+.card3 .imgBx {
+  top: 0;
+  left: 0;
+}
+.card3:hover .imgBx {
+  top: 0;
+  left: -100%;
+}
+.card3 .imgBx img {
+  width: 100%;
+}
+.card3 .details {
+  background: #262626;
+  top: 0;
+  left: 100%;
+  padding: 60px 30px;
+  font-size:16px;
+}
+.card3:hover .details {
+  top: 0;
+  left: 0%;
+}
+.card3 .details h2 {
+  color: #fff;
+  text-align: center;
+  margin: 0;
+  padding: 0 0 10px;
+  border-bottom: 2px solid #fff;
+
+}
+.card3 .details p {
+  margin: 20px 0 0;
+  color: #fff;
+}
+
+
+
+/* CARTAS DE LAS PELICULAS DE TODOS LOS TIEMPOS 3 */
+
+.card4 {
+
+  transform: translate(-50%,-50%);
+  width: 100%;
+  height: 400px;
+  background: #262626;
+  overflow: hidden;
+  border: 10px solid white;
+  border-radius: 20px;
+  margin:20px;
+}
+.card4 .imgBx,
+.card4 .details {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  box-sizing: border-box;
+  transition: .5s;
+}
+.card4 .imgBx {
+  top: 0;
+  left: 0;
+}
+.card4:hover .imgBx {
+  top: 0;
+  left: -100%;
+}
+.card4 .imgBx img {
+  width: 100%;
+}
+.card4 .details {
+  background: #262626;
+  top: 0;
+  left: 100%;
+  padding: 60px 30px;
+  font-size:16px;
+}
+.card4:hover .details {
+  top: 0;
+  left: 0%;
+}
+.card4 .details h2 {
+  color: #fff;
+  text-align: center;
+  margin: 0;
+  padding: 0 0 10px;
+  border-bottom: 2px solid #fff;
+
+}
+.card4 .details p {
+  margin: 20px 0 0;
+  color: #fff;
+}
+
+
+/* CARTAS DE LAS PELICULAS DE TODOS LOS TIEMPOS 5 */
+
+.card5 {
+
+  transform: translate(-50%,-50%);
+  width: 100%;
+  height: 400px;
+  background: #262626;
+  overflow: hidden;
+  border: 10px solid white;
+  border-radius: 20px;
+  margin:20px;
+}
+.card5 .imgBx,
+.card5 .details {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  box-sizing: border-box;
+  transition: .5s;
+}
+.card5 .imgBx {
+  top: 0;
+  left: 0;
+}
+.card5:hover .imgBx {
+  top: 0;
+  left: -100%;
+}
+.card5 .imgBx img {
+  width: 100%;
+}
+.card5 .details {
+  background: #262626;
+  top: 0;
+  left: 100%;
+  padding: 60px 30px;
+  font-size:16px;
+}
+.card5:hover .details {
+  top: 0;
+  left: 0%;
+}
+.card5 .details h2 {
+  color: #fff;
+  text-align: center;
+  margin: 0;
+  padding: 0 0 10px;
+  border-bottom: 2px solid #fff;
+
+}
+.card5 .details p {
+  margin: 20px 0 0;
+  color: #fff;
+}
+
+
+
+/* CARTAS DE LAS PELICULAS DE TODOS LOS TIEMPOS 6 */
+
+.card6 {
+
+  transform: translate(-50%,-50%);
+  width: 100%;
+  height: 400px;
+  background: #262626;
+  overflow: hidden;
+  border: 10px solid white;
+  border-radius: 20px;
+  margin:20px;
+}
+.card6 .imgBx,
+.card6 .details {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  box-sizing: border-box;
+  transition: .5s;
+}
+.card6 .imgBx {
+  top: 0;
+  left: 0;
+}
+.card6:hover .imgBx {
+  top: 0;
+  left: -100%;
+}
+.card6 .imgBx img {
+  width: 100%;
+}
+.card6 .details {
+  background: #262626;
+  top: 0;
+  left: 100%;
+  padding: 60px 30px;
+  font-size:16px;
+}
+.card6:hover .details {
+  top: 0;
+  left: 0%;
+}
+.card6 .details h2 {
+  color: #fff;
+  text-align: center;
+  margin: 0;
+  padding: 0 0 10px;
+  border-bottom: 2px solid #fff;
+
+}
+.card6 .details p {
+  margin: 20px 0 0;
+  color: #fff;
+}
+
+
+/* CARTAS DE LAS PELICULAS DE TODOS LOS TIEMPOS 7 */
+
+.card7 {
+
+  transform: translate(-50%,-50%);
+  width: 100%;
+  height: 400px;
+  background: #262626;
+  overflow: hidden;
+  border: 10px solid white;
+  border-radius: 20px;
+  margin:20px;
+}
+.card7 .imgBx,
+.card7 .details {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  box-sizing: border-box;
+  transition: .5s;
+}
+.card7 .imgBx {
+  top: 0;
+  left: 0;
+}
+.card7:hover .imgBx {
+  top: 0;
+  left: -100%;
+}
+.card7 .imgBx img {
+  width: 100%;
+}
+.card7 .details {
+  background: #262626;
+  top: 0;
+  left: 100%;
+  padding: 60px 30px;
+  font-size:16px;
+}
+.card7:hover .details {
+  top: 0;
+  left: 0%;
+}
+.card7 .details h2 {
+  color: #fff;
+  text-align: center;
+  margin: 0;
+  padding: 0 0 10px;
+  border-bottom: 2px solid #fff;
+
+}
+.card7 .details p {
+  margin: 20px 0 0;
+  color: #fff;
+}
+
+
+
+
+/* CSS DE LAS IMAGENES DE LOS CINES 1 */
+
+.snip1325 {
+  position: absolute;
+  overflow: hidden;
+  margin: 10px;
+  min-width: 255px;
+  max-width: 315px;
+  height: 220px;
+  width: 30%;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
+  
+}
+.snip1325 img {
+  height: 100%;
+  position: absolute;
+  right: 0;
+  -webkit-transition: all 2s ease-out;
+  transition: all 2s ease-out;
+}
+.snip1325:hover img,
+.snip1325.hover img {
+  -webkit-transform: translateX(130px);
+  transform: translateX(130px);
+}
+
+
+
+/* CSS DE LAS IMAGENES DE LOS CINES 2 */
+
+.snip13252 {
+  position: relative;
+  left:10px;
+  overflow: hidden;
+  margin: 10px;
+  min-width: 255px;
+  max-width: 315px;
+  height: 220px;
+  width: 30%;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
+}
+.snip13252 img {
+  height: 100%;
+  position: absolute;
+  right: 0;
+  -webkit-transition: all 2s ease-out;
+  transition: all 2s ease-out;
+}
+.snip13252:hover img,
+.snip13252.hover img {
+  -webkit-transform: translateX(130px);
+  transform: translateX(130px);
+}
+
+
+/* CSS DE LAS IMAGENES DE LOS CINES 3 */
+.snip132522 {
+  position: absolute;
+  left:500px;
+  overflow: hidden;
+  margin: 10px;
+  min-width: 255px;
+  max-width: 315px;
+  height: 220px;
+  width: 100%;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
+}
+.snip132522 img {
+  height: 100%;
+  position: absolute;
+  right: 0;
+  -webkit-transition: all 2s ease-out;
+  transition: all 2s ease-out;
+}
+.snip132522:hover img,
+.snip132522.hover img {
+  -webkit-transform: translateX(130px);
+  transform: translateX(130px);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ /* EFECTO */
+ .box {
+  display: flex;
+  font-family: 'Pacifico', cursive;
+  padding-top: 350px;
+  padding-left:20px;
+}
+
+.box .inner {
+  width: 500px;
+  height: 200px;
+  line-height: 200px;
+  font-size: 4em;
+  font-family: sans-serif;
+  font-weight: bold;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.box .inner:first-child {
+  background-color: indianred;
+  color: darkred;
+  transform-origin: right;
+  transform: perspective(100px) rotateY(-15deg);
+}
+
+.box .inner:last-child {
+  background-color: lightcoral;
+  color: antiquewhite;
+  transform-origin: left;
+  transform: perspective(100px) rotateY(15deg);
+}
+
+.box .inner span {
+  position: absolute;
+  animation: marquee 5s linear infinite;
+}
+
+.box .inner:first-child span {
+  animation-delay: 2.5s;
+  left: -100%;
+}
+
+@keyframes marquee {
+  from {
+    left: 100%;
+  }
+
+  to {
+    left: -100%;
+  }
+}
+
+
+
+
+
+
+
+ /* EFECTO */
+ .box2 {
+  display: flex;
+  font-family: 'Pacifico', cursive;
+  padding-top: 450px;
+  padding-left:20px;
+  
+}
+
+.box2 .inner2 {
+  width: 500px;
+  height: 200px;
+  line-height: 200px;
+  font-size: 4em;
+  font-family: sans-serif;
+  font-weight: bold;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.box2 .inner2:first-child {
+  background-color: indianred;
+  color: darkred;
+  transform-origin: right;
+  transform: perspective(100px) rotateY(-15deg);
+}
+
+.box2 .inner2:last-child {
+  background-color: lightcoral;
+  color: antiquewhite;
+  transform-origin: left;
+  transform: perspective(100px) rotateY(15deg);
+}
+
+.box2 .inner2 span {
+  position: absolute;
+  animation: marquee 5s linear infinite;
+}
+
+.box2 .inner2:first-child span {
+  animation-delay: 2.5s;
+  left: -100%;
+}
+
+@keyframes marquee {
+  from {
+    left: 100%;
+  }
+
+  to {
+    left: -100%;
+  }
+}
+
+
+
+
+.contenedor{
+  display: flex;
+  padding-left: 140px;
+  width:120%;
+  
+ 
+ 
+}
+.contenedor2{
+  display: flex;
+  padding-left: 140px;
+  width:120%;
+  
+  
+}
+
+.conteprincipal{
+ padding-top: 350px;
+ 
+}
+
+
+
+.reloj { width: 200px; height: 38px; padding: 5px 10px; border: 1px solid black; 
+  font: bold 1.5em dotum, "lucida sans", arial; 
+  text-align: center;
+  float: right; margin: 1em 3em 1em 1em;
+  background-color: orange;
+  color: white; 
+  margin-left: 80px;
+}
+  
+
+
+.fot{
+font-family: 'Pacifico', cursive;
+color: white;
+font-size: 1.5em;
+}
+
+
+
+
+
+
+
+
+
+/* ACA COMIENZA EL RESPONSIVE CON MEDIAQUERYES */
+ /* Pequeños Medianos Iphone  6,7,8,-> 0px - 900px */
+ @media(max-width:900px){
+
+  .contenedor{
+    flex-direction:column;
+  }
+
+  .contenedor2{
+    flex-direction:column;
+  }
+ 
+  
+  .card2 {
+  padding-left: 300px;
+
+  }
+  
+  .card3 {
+    padding-left: 300px;
+  }
+  
+  .card4 {
+    padding-left: 300px;
+  }
+
+  .card5 {
+    padding-left: 300px;
+  
+    }
+    
+    .card6 {
+      padding-left: 300px;
+    }
+    
+    .card7 {
+      padding-left: 300px;
+    }
+ 
+  .titulo2{
+    font-size: 2.5em;
+    width: 480px;
+    position: absolute;
+    left:-110px;
+    bottom: 200px;
+ }
+ .titulo{
+     font-size:80px;
+     width:1000px;
+     position: absolute;
+     left: -240px;
+     
+ }
+
+ .tituloprincipal{
+font-size:2.0em;
+width:250%;
+margin-left: -220px;
+
+  
+}
+
+.tituloprincipal2{
+font-size:2.0em;
+width:250%;
+padding: 150px;
+margin-left: -190px;
+
+  
+}
+
+
+
+
+
+.box {
+display: flex;
+font-family: 'Pacifico', cursive;
+padding:50px;
+
+}
+
+.box .inner {
+width: 2500px;
+height: 200px;
+line-height: 100px;
+font-size: 4em;
+font-family: sans-serif;
+font-weight: bold;
+white-space: nowrap;
+overflow: hidden;
+}
+
+
+
+
+/* Slider de series */
+.slider2 ul {
+display: flex;
+padding: 0;
+width: 520%;
+height: 150px;
+
+animation: cambio 20s infinite alternate linear;
+}
+
+.slider2 li {
+width: 100%;
+list-style: none;
+}
+
+.slider2 img {
+width: 100%;
+}
+
+@keyframes cambio {
+0% {margin-left: 0;}
+20% {margin-left: 0;}
+
+25% {margin-left: -100%;}
+45% {margin-left: -100%;}
+
+50% {margin-left: -200%;}
+70% {margin-left: -200%;}
+
+75% {margin-left: -300%;}
+100% {margin-left: -300%;}
+}
+.accordion-body{
+background-color: black;
+}
+.accordion-button{
+background-color:black;
+color: white;
+font-size: 1em;
+font-family: 'Pacifico', cursive;
+
+}
+
+/* EFECTO */
+.box2 {
+display: flex;
+font-family: 'Pacifico', cursive;
+padding-top: 300px;
+}
+
+.box2 .inner2 {
+width: 500px;
+height: 200px;
+line-height: 200px;
+font-size: 4em;
+font-family: sans-serif;
+font-weight: bold;
+white-space: nowrap;
+overflow: hidden;
+}
+
+
+
+.contenedormaps{
+  flex-direction: column;
+  
+}
+
+.reloj { width: 500px; height: 68px; padding: 5px 10px; border: 1px solid black; 
+  font: bold 1.5em dotum, "lucida sans", arial; 
+  text-align: center;
+  float: right; margin: 1em 3em 1em 1em;
+  background-color: orange;
+  color: white; 
+  margin-left: 80px;
+}
+  
+
+
+ }
+
+
+
+
+
+
+
+ 
+
+
+
+
+ 
